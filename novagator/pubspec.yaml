@@ -1,0 +1,16 @@
+name: novagator
+description: Flutter cross plattform navigator with annotations and code generation.
+version: 0.0.1
+author: Viktor Machnik <mail@acevik.de>
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  meta: ^1.1.8
+
+dev_dependencies:
+  build_runner: ^1.10.0
+  novagator_generator:
+    path: ../novagator_generator

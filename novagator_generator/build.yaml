@@ -1,0 +1,9 @@
+# Read about `build.yaml` at https://pub.dartlang.org/packages/build_config
+builders:
+  novagator_generator:
+    target: ":novagator_generator"
+    import: "package:novagator_generator/novagator_generator.dart"
+    builder_factories: ["novagatorGeneratorFactory"]
+    build_extensions: {".dart": [".novagator.dart"]}
+    auto_apply: root_package
+    build_to: source
